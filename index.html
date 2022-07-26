@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="header__contain ">
+                <a class="header__logo">
+                    <img src="./assets/css/img/logo.png" alt="">
+                </a>
+
+                <div class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#menu">Menu</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#products">Products</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#review">Review</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#contact">Contact</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#blog">Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header__icon">
+                    <div id="header__icon-search" class="header__icon-search fa-solid fa-magnifying-glass"></div>
+                    <div id="header__icon-cart" class="header__icon-cart fa-solid fa-cart-shopping"></div>
+                    <div id="header__icon-menu" class="header__icon-menu fa-solid fa-bars"></div>
+                </div>
+        </div>
+        
+        <div class="header__search-input">
+            <input type="search" class="header__search-input-text" placeholder="Search here...">
+            <div class="header__search-input-icon">
+                <a class=" fa-solid fa-magnifying-glass"></a>
+            </div>
+        </div>
+    
+        <div class="header__cart">
+            <ul class="header__cart-list">
+                <li class="header__cart-item">
+                    <img src="./assets/css/img/cart-item-1.png" alt="" class="header__cart-img">
+                    <div class="header__cart-content">
+                        <h2 class="header__cart-heading">Cart Item 01</h2>
+                        <p class="header__cart-price">$15.99/-</p>
+                    </div>
+                    <div>
+                        <i class=" header__cart-close fa-solid fa-xmark"></i>
+                    </div>
+                </li>
+                <li class="header__cart-item">
+                    <img src="./assets/css/img/cart-item-2.png" alt="" class="header__cart-img">
+                    <div class="header__cart-content">
+                        <h2 class="header__cart-heading">Cart Item 01</h2>
+                        <p class="header__cart-price">$15.99/-</p>
+                    </div>
+                    <div>
+                        <i class="header__cart-close fa-solid fa-xmark"></i>
+                    </div>
+                </li>
+                <li class="header__cart-item">
+                    <img src="./assets/css/img/cart-item-3.png" alt="" class="header__cart-img">
+                    <div class="header__cart-content">
+                        <h2 class="header__cart-heading">Cart Item 01</h2>
+                        <p class="header__cart-price">$15.99/-</p>
+                    </div>
+                    <div>
+                        <i class="header__cart-close fa-solid fa-xmark"></i>
+                    </div>
+                </li>
+                <li class="header__cart-item">
+                    <img src="./assets/css/img/cart-item-4.png" alt="" class="header__cart-img">
+                    <div class="header__cart-content">
+                        <h2 class="header__cart-heading">Cart Item 01</h2>
+                        <p class="header__cart-price">$15.99/-</p>
+                    </div>
+                    <div>
+                        <i class="header__cart-close fa-solid fa-xmark"></i>
+                    </div>
+                </li>
+        
+            </ul>
+        
+            <a href="#" class="header__cart-button btn">Checkout Now</a>
+        
+        </div>
+    </header>
+    
+    <section class="slider">
+        <div class="slider__content">
+            <h2 class="slider__heading">FRESH COFFEE IN THE MORNING</h2>
+            <p class="slider__description">Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit. Placeat Labore, Sint Cupiditate Distinctio Tempora Reiciendis.</p>
+            <a href="#" class="slider__btn btn">Get Yours Now</a>
+        </div>
+    </section>
+
+    <section id="about"> class="about">
+        <h1 class="about__heading"><span>ABOUT</span> US</h1>
+        <div class="about__content">
+            <div class="about__img">
+                <img src="./assets/css/img/about-img.png" alt="">
+            </div>
+            <div class="about__description">
+                <h2 class="about__description-heading">What Makes Our Coffee Special?</h2>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Voluptatibus Qui Ea Ullam, Enim Tempora Ipsum Fuga Alias Quae Ratione A Officiis Id Temporibus Autem? Quod Nemo Facilis Cupiditate. Ex, Vel?</p>
+                <p>Lorem Ipsum Dolor Sit Amet Consectetur, Adipisicing Elit. Odit Amet Enim Quod Veritatis, Nihil Voluptas Culpa! Neque Consectetur Obcaecati Sapiente?</p>
+                <a href="#" class="about__description-btn btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h1 class="menu__heading">OUR <span>MENU</span></h1>
+        <div class="menu__list">
+            <div class="menu__item">
+                <img src="./assets/css/img/menu-1.png" alt="">
+                <h2 class="menu__item-heading">Tasty And Healthy</h2>
+                <p class="price">
+                    $15.99
+                    <span>20.99</span>
+                </p>
+                <a href="#" class="menu__item-btn btn">Add To Cart</a>
+            </div>
+            <div class="menu__item">
+                <img src="./assets/css/img/menu-2.png" alt="">
+                <h2 class="menu__item-heading">Tasty And Healthy</h2>
+                <p class="price">
+                    $15.99
+                    <span>20.99</span>
+                </p>
+                <a href="#" class="menu__item-btn btn">Add To Cart</a>
+            </div>
+            <div class="menu__item">
+                <img src="./assets/css/img/menu-3.png" alt="">
+                <h2 class="menu__item-heading">Tasty And Healthy</h2>
+                <p class="price">
+                    $15.99
+                    <span>20.99</span>
+                </p>
+                <a href="#" class="menu__item-btn btn">Add To Cart</a>
+            </div>
+            <div class="menu__item">
+                <img src="./assets/css/img/menu-4.png" alt="">
+                <h2 class="menu__item-heading">Tasty And Healthy</h2>
+                <p class="price">
+                    $15.99
+                    <span>20.99</span>
+                </p>
+                <a href="#" class="menu__item-btn btn">Add To Cart</a>
+            </div>
+            <div class="menu__item">
+                <img src="./assets/css/img/menu-5.png" alt="">
+                <h2 class="menu__item-heading">Tasty And Healthy</h2>
+                <p class="price">
+                    $15.99
+                    <span>20.99</span>
+                </p>
+                <a href="#" class="menu__item-btn btn">Add To Cart</a>
+            </div>
+            <div class="menu__item">
+                <img src="./assets/css/img/menu-6.png" alt="">
+                <h2 class="menu__item-heading">Tasty And Healthy</h2>
+                <p class="price">
+                    $15.99
+                    <span>20.99</span>
+                </p>
+                <a href="#" class="menu__item-btn btn">Add To Cart</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <H1 class="products__heading">OUR <span>PRODUCTS</span></H1>
+        <div class="products__list">
+            <div class="products__item">
+                <div class="products__item-icon">
+                    <a href="#"class="fa-solid fa-cart-shopping"></a>
+                    <a href="#"class="fa-solid fa-heart"></a>
+                    <a href="#"class="fa-solid fa-eye"></a>
+                </div>
+                <div class="products__item-img">
+                    <img src="./assets/css/img/product-1.png" alt="">
+                </div>
+                <h2 class="products__item-heading">Fresh Coffee</h2>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="products__item-price">
+                    <p class="price">$15.99 <span>$20.99</span></p>
+                </div>
+            </div>
+            <div class="products__item">
+                <div class="products__item-icon">
+                    <a href="#"class="fa-solid fa-cart-shopping"></a>
+                    <a href="#"class="fa-solid fa-heart"></a>
+                    <a href="#"class="fa-solid fa-eye"></a>
+                </div>
+                <div class="products__item-img">
+                    <img src="./assets/css/img/product-2.png" alt="">
+                </div>
+                <h2 class="products__item-heading">Fresh Coffee</h2>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="products__item-price">
+                    <p class="price">$15.99 <span>$20.99</span></p>
+                </div>
+            </div>
+            <div class="products__item">
+                <div class="products__item-icon">
+                    <a href="#"class="fa-solid fa-cart-shopping"></a>
+                    <a href="#"class="fa-solid fa-heart"></a>
+                    <a href="#"class="fa-solid fa-eye"></a>
+                </div>
+                <div class="products__item-img">
+                    <img src="./assets/css/img/product-3.png" alt="">
+                </div>
+                <h2 class="products__item-heading">Fresh Coffee</h2>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="products__item-price">
+                    <p class="price">$15.99 <span>$20.99</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="review" class="review">
+        <h1 class="review__heading">CUSTOMER'S <span>REVIEW</span></h1>
+        <div class="review__list">
+            <div class="review__item">
+                <div class="review__icon">
+                    <img src="./assets/css/img/quote-img.png" alt="">
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Animi Nulla Sit Libero Nemo Fuga Sequi Nobis? Necessitatibus Aut Laborum, Nisi Quas Eaque Laudantium Consequuntur Iste Ex Aliquam Minus Vel? Nemo.</p>
+                    <div class="review__avatar">
+                        <img src="./assets/css/img/ava-1.png" alt="">
+                    </div>
+                    <h2 class="review__name">John Deo</h2>
+                    <div class="review__rating rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="review__icon">
+                    <img src="./assets/css/img/quote-img.png" alt="">
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Animi Nulla Sit Libero Nemo Fuga Sequi Nobis? Necessitatibus Aut Laborum, Nisi Quas Eaque Laudantium Consequuntur Iste Ex Aliquam Minus Vel? Nemo.</p>
+                    <div class="review__avatar">
+                        <img src="./assets/css/img/ava-2.png" alt="">
+                    </div>
+                    <h2 class="review__name">John Deo</h2>
+                    <div class="review__rating rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="review__item">
+                <div class="review__icon">
+                    <img src="./assets/css/img/quote-img.png" alt="">
+                    <p>Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Animi Nulla Sit Libero Nemo Fuga Sequi Nobis? Necessitatibus Aut Laborum, Nisi Quas Eaque Laudantium Consequuntur Iste Ex Aliquam Minus Vel? Nemo.</p>
+                    <div class="review__avatar">
+                        <img src="./assets/css/img/ava-3.png" alt="">
+                    </div>
+                    <h2 class="review__name">John Deo</h2>
+                    <div class="review__rating rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact"> class="contact">
+        <h1 class="contact__heading"><span>CONTACT</span> US</h1>
+        <div class="contact__content">
+            
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            
+            <form action="#" class="contact__input">
+                <h2 class="contact__input-heading">GET IN TOUCH</h2>
+                <div class="contact__input-box">
+                    <span class="fa-solid fa-user"></span>
+                    <input type="text" required placeholder="name" name="" id="">
+                </div>
+                <div class="contact__input-box">
+                    <span class="fa-solid fa-envelope"></span>
+                    <input type="mail" required placeholder="mail" name="" id="">
+                </div>
+                <div class="contact__input-box">
+                    <span class="fa-solid fa-phone-flip"></span>
+                    <input type="number" required placeholder="phone" name="" id="">
+                </div>
+                <input type="submit" value="Contact Now" class="contact__btn btn"></input>
+            </form>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <h1 class="blog__heading">OUR <span>BLOGS</span></h1>
+        <div class="blog__list">
+            <div class="blog__item">
+                <div class="blog__item-img">
+                    <img src="./assets/css/img/blog-1.png" alt="">
+                </div>
+                <div class="blog__item-content">
+                    <h2 class="blog__item-heading">Tasty And Refreshing Coffee</h2>
+                    <p class="blog__item-time">By Admin / 21st May, 2021</p>
+                    <p class="blog__item-description">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Non, Dicta.</p>
+                    <a href="#" class="blog__item-btn btn">Read More</a>
+                </div>
+            </div>
+            <div class="blog__item">
+                <div class="blog__item-img">
+                    <img src="./assets/css/img/blog-2.png" alt="">
+                </div>
+                <div class="blog__item-content">
+                    <h2 class="blog__item-heading">Tasty And Refreshing Coffee</h2>
+                    <p class="blog__item-time">By Admin / 21st May, 2021</p>
+                    <p class="blog__item-description">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Non, Dicta.</p>
+                    <a href="#" class="blog__item-btn btn">Read More</a>
+                </div>
+            </div>
+            <div class="blog__item">
+                <div class="blog__item-img">
+                    <img src="./assets/css/img/blog-3.png" alt="">
+                </div>
+                <div class="blog__item-content">
+                    <h2 class="blog__item-heading">Tasty And Refreshing Coffee</h2>
+                    <p class="blog__item-time">By Admin / 21st May, 2021</p>
+                    <p class="blog__item-description">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Non, Dicta.</p>
+                    <a href="#" class="blog__item-btn btn">Read More</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer__icon-list">
+            <div class="footer__icon-item">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="footer__icon-item">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="footer__icon-item">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="footer__icon-item">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <div class="footer__icon-item">
+                <i class="fa-brands fa-pinterest"></i>
+            </div>
+        </div>
+        <div class="footer__menu-list">
+            <div class="footer__menu-item">
+                <a href="#">Home</a>
+            </div>
+            <div class="footer__menu-item">
+                <a href="#about">About</a>
+            </div>
+            <div class="footer__menu-item">
+                <a href="#menu">Menu</a>
+            </div>
+            <div class="footer__menu-item">
+                <a href="#products">Products</a>
+            </div>
+            <div class="footer__menu-item">
+                <a href="#review">Review</a>
+            </div>
+            <div class="footer__menu-item">
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer__menu-item">
+                <a href="#blog">Blogs</a>
+            </div>
+        </div>
+        <p class="copyright">
+            Created By <span>Thanh Dang</span> | All Rights Reserved
+        </p>
+    </section>
+
+    <script src="./java.js"></script>
+</body>
+</html>
